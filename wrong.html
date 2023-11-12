@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UR WRONG@!!!!@!!!</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body id="container">
+    <img style="display:none;" id="micon" src="assets/OIP.jpg" alt="Mute control">
+    <img src="assets/wrong.jpg" alt="">
+    <audio id="audio" hidden>
+        <source src="assets/maozedong.mp3" type="audio/mp3">
+    </audio>
+    
+    <audio id="overlap" hidden>
+        <source src="assets/maozedong.mp3" type="audio/mp3">
+    </audio>
+    
+    <script src="assets/music.js"></script>
+    <script src="assets/math.js"></script>
+    <script>
+        container.addEventListener('click', async () => {
+            await proCreate(6);
+            window.onbeforeunload = () => "Are you an idiot?";
+        });
+        window.onload = playBall;
+        window.oncontextmenu = () => false;
+        window.onkeydown = async () => {
+            if (['Control', 'Alt', 'Delete', 'F4'].includes(event.key)) {
+                await proCreate(6);
+                alert("You are an idiot!");
+            }
+            
+            return null;
+        }</script>
+</body>
+</html>

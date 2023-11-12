@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Is Taiwan a country?</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body id="container">
+    <main>
+        <div class="question"><span>Is Taiwan a country?</span></div>
+        <div class="answer">
+            <button class="yes" id="answer_yes">Yes</button>
+            <button class="no" id="answer_no">No</button>
+        </div>
+    </main>
+    <footer></footer>
+    <script>
+        let answer_yes = document.getElementById('answer_yes');
+        let answer_no = document.getElementById('answer_no');
+        answer_yes.addEventListener('click', function() {
+            window.open("wrong.html", "_self")
+        });
+        answer_no.addEventListener('click', function() {
+            let main = document.getElementsByTagName('main')[0];
+            main.innerHTML = '<img src="assets/good.jpg" alt="">';
+        });
+    </script>
+</body>
+</html>
