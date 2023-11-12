@@ -18,6 +18,7 @@ img {
 div {
     display:block;
 }
+
 .question { 
     margin: 10px;
     padding: 10px;
@@ -32,4 +33,22 @@ div {
     border: 1px solid rgb(23, 23, 23);
     border-radius: 5px;
     background-color: rgb(23, 23, 23);
+}
+
+.yes, .no {
+    padding: 10px 20px;
+    transition: background-color 0.2s ease;
+    background-color: rgb(18, 20, 19);
+    border: 1px solid #9313aa;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
+    box-sizing: border-box;
+}
+
+.yes:hover {
+    background-color: red;
+}
+
+.no:hover {
+    background-color: green;
 }
