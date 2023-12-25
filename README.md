@@ -1,5 +1,3 @@
-# Simple quiz about taiwan!!!!
+# Quiz about Taiwan!
 
-Very easy fr
-
-everything is pasted $$$$$$$$$$
+(everything is pasted $$$$$$$$$$)
